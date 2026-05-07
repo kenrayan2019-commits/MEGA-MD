@@ -19,7 +19,7 @@ const config = {
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
     ytChannel: process.env.YT_CHANNEL || 'GlobalTechInfo',
     // Session
-    sessionId: process.env.SESSION_ID || '',
+    SESSION_ID: 'GlobalTechInfo/MEGA-MD_ce84d22ffb49c99ffe14874d14338586',
     pairingNumber: process.env.PAIRING_NUMBER || '',
     // Performance
     port: Number(process.env.PORT) || 5000,
